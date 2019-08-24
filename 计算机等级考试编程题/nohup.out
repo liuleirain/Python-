@@ -1,0 +1,400 @@
+ERROR: config not specified
+usage: sslocal [OPTION]...
+A fast tunnel proxy that helps you bypass firewalls.
+
+You can supply configurations via either config file or command line arguments.
+
+Proxy options:
+  -c CONFIG              path to config file
+  -s SERVER_ADDR         server address
+  -p SERVER_PORT         server port, default: 8388
+  -b LOCAL_ADDR          local binding address, default: 127.0.0.1
+  -l LOCAL_PORT          local port, default: 1080
+  -k PASSWORD            password
+  -m METHOD              encryption method, default: aes-256-cfb
+  -t TIMEOUT             timeout in seconds, default: 300
+  -a ONE_TIME_AUTH       one time auth
+  --fast-open            use TCP_FASTOPEN, requires Linux 3.7+
+
+General options:
+  -h, --help             show this help message and exit
+  -d start/stop/restart  daemon mode
+  --pid-file PID_FILE    pid file for daemon mode
+  --log-file LOG_FILE    log file for daemon mode
+  --user USER            username to run as
+  -v, -vv                verbose mode
+  -q, -qq                quiet mode, only show warnings/errors
+  --version              show version information
+
+Online help: <https://github.com/shadowsocks/shadowsocks>
+
+ERROR: config not specified
+usage: sslocal [OPTION]...
+A fast tunnel proxy that helps you bypass firewalls.
+
+You can supply configurations via either config file or command line arguments.
+
+Proxy options:
+  -c CONFIG              path to config file
+  -s SERVER_ADDR         server address
+  -p SERVER_PORT         server port, default: 8388
+  -b LOCAL_ADDR          local binding address, default: 127.0.0.1
+  -l LOCAL_PORT          local port, default: 1080
+  -k PASSWORD            password
+  -m METHOD              encryption method, default: aes-256-cfb
+  -t TIMEOUT             timeout in seconds, default: 300
+  -a ONE_TIME_AUTH       one time auth
+  --fast-open            use TCP_FASTOPEN, requires Linux 3.7+
+
+General options:
+  -h, --help             show this help message and exit
+  -d start/stop/restart  daemon mode
+  --pid-file PID_FILE    pid file for daemon mode
+  --log-file LOG_FILE    log file for daemon mode
+  --user USER            username to run as
+  -v, -vv                verbose mode
+  -q, -qq                quiet mode, only show warnings/errors
+  --version              show version information
+
+Online help: <https://github.com/shadowsocks/shadowsocks>
+
+INFO: loading config from /etc/shadowsocks/config.json
+2019-08-24 15:13:47 INFO     loading libcrypto from libcrypto.so.1.1
+2019-08-24 15:13:47 INFO     starting local at 127.0.0.1:10080
+2019-08-24 15:13:53 INFO     connecting www.googleapis.com:443 from 127.0.0.1:38854
+2019-08-24 15:13:53 INFO     connecting accounts.google.com:443 from 127.0.0.1:38860
+2019-08-24 15:13:54 INFO     connecting oauthaccountmanager.googleapis.com:443 from 127.0.0.1:38866
+2019-08-24 15:13:54 INFO     connecting clients4.google.com:443 from 127.0.0.1:38870
+2019-08-24 15:13:55 INFO     connecting clients4.google.com:443 from 127.0.0.1:38874
+2019-08-24 15:13:55 INFO     connecting www.google.com:443 from 127.0.0.1:38878
+2019-08-24 15:13:55 INFO     connecting lh3.googleusercontent.com:443 from 127.0.0.1:38882
+2019-08-24 15:13:55 INFO     connecting www.gstatic.com:443 from 127.0.0.1:38886
+2019-08-24 15:13:55 INFO     connecting apis.google.com:443 from 127.0.0.1:38890
+2019-08-24 15:13:59 ERROR    [Errno 104] Connection reset by peer
+2019-08-24 15:13:59 ERROR    [Errno 104] Connection reset by peer
+2019-08-24 15:43:08 INFO     connecting www.googleapis.com:443 from 127.0.0.1:38912
+2019-08-24 15:43:08 INFO     connecting accounts.google.com:443 from 127.0.0.1:38916
+2019-08-24 15:43:09 INFO     connecting oauthaccountmanager.googleapis.com:443 from 127.0.0.1:38930
+2019-08-24 15:43:09 INFO     connecting clients4.google.com:443 from 127.0.0.1:38934
+2019-08-24 15:43:10 INFO     connecting clients4.google.com:443 from 127.0.0.1:38938
+2019-08-24 15:43:10 INFO     connecting docs.google.com:443 from 127.0.0.1:38942
+2019-08-24 15:43:11 INFO     connecting clients6.google.com:443 from 127.0.0.1:38946
+2019-08-24 15:43:11 INFO     connecting docs.google.com:443 from 127.0.0.1:38950
+2019-08-24 15:43:11 INFO     connecting clients6.google.com:443 from 127.0.0.1:38954
+2019-08-24 15:43:11 INFO     connecting clients6.google.com:443 from 127.0.0.1:38962
+2019-08-24 15:43:12 INFO     connecting clients6.google.com:443 from 127.0.0.1:38966
+2019-08-24 15:43:12 INFO     connecting clients2.google.com:443 from 127.0.0.1:38970
+2019-08-24 15:43:14 INFO     connecting play.google.com:443 from 127.0.0.1:38974
+2019-08-24 15:43:14 INFO     connecting play.google.com:443 from 127.0.0.1:38978
+2019-08-24 15:43:15 INFO     connecting play.google.com:443 from 127.0.0.1:38982
+2019-08-24 15:43:15 INFO     connecting play.google.com:443 from 127.0.0.1:38984
+2019-08-24 15:43:39 INFO     connecting clients1.google.com:443 from 127.0.0.1:39020
+2019-08-24 15:44:39 INFO     connecting google.com:443 from 127.0.0.1:39026
+2019-08-24 15:50:31 INFO     connecting docs.google.com:443 from 127.0.0.1:39048
+2019-08-24 15:55:30 INFO     connecting docs.google.com:443 from 127.0.0.1:39066
+2019-08-24 15:58:10 ERROR    [Errno 104] Connection reset by peer
+2019-08-24 15:58:10 INFO     connecting clients4.google.com:443 from 127.0.0.1:39080
+2019-08-24 16:00:31 INFO     connecting docs.google.com:443 from 127.0.0.1:39088
+2019-08-24 16:00:31 INFO     connecting docs.google.com:443 from 127.0.0.1:39092
+2019-08-24 16:00:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39096
+2019-08-24 16:00:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39100
+2019-08-24 16:00:33 INFO     connecting clients6.google.com:443 from 127.0.0.1:39104
+2019-08-24 16:00:34 INFO     connecting play.google.com:443 from 127.0.0.1:39108
+2019-08-24 16:04:52 INFO     connecting clients4.google.com:443 from 127.0.0.1:39118
+2019-08-24 16:05:30 INFO     connecting docs.google.com:443 from 127.0.0.1:39128
+2019-08-24 16:11:24 INFO     connecting clients4.google.com:443 from 127.0.0.1:39164
+2019-08-24 16:20:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39192
+2019-08-24 16:20:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39196
+2019-08-24 16:20:32 INFO     connecting clients6.google.com:443 from 127.0.0.1:39200
+2019-08-24 16:20:34 INFO     connecting play.google.com:443 from 127.0.0.1:39204
+2019-08-24 16:20:34 INFO     connecting play.google.com:443 from 127.0.0.1:39208
+2019-08-24 16:24:52 INFO     connecting clients4.google.com:443 from 127.0.0.1:39218
+2019-08-24 16:35:31 INFO     connecting play.google.com:443 from 127.0.0.1:39250
+2019-08-24 16:35:31 INFO     connecting play.google.com:443 from 127.0.0.1:39254
+2019-08-24 16:38:19 INFO     connecting clients4.google.com:443 from 127.0.0.1:39264
+2019-08-24 16:40:30 INFO     connecting docs.google.com:443 from 127.0.0.1:39276
+2019-08-24 16:40:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39280
+2019-08-24 16:40:32 INFO     connecting clients6.google.com:443 from 127.0.0.1:39284
+2019-08-24 16:40:32 INFO     connecting clients6.google.com:443 from 127.0.0.1:39288
+2019-08-24 16:40:33 INFO     connecting clients6.google.com:443 from 127.0.0.1:39292
+2019-08-24 16:40:34 INFO     connecting play.google.com:443 from 127.0.0.1:39296
+2019-08-24 16:40:34 INFO     connecting drive.google.com:443 from 127.0.0.1:39300
+2019-08-24 16:40:41 INFO     connecting play.google.com:443 from 127.0.0.1:39308
+2019-08-24 16:40:47 INFO     connecting lh3.googleusercontent.com:443 from 127.0.0.1:39312
+2019-08-24 16:40:47 INFO     connecting lh3.googleusercontent.com:443 from 127.0.0.1:39316
+2019-08-24 16:40:47 INFO     connecting lh3.googleusercontent.com:443 from 127.0.0.1:39318
+2019-08-24 16:40:47 INFO     connecting lh3.googleusercontent.com:443 from 127.0.0.1:39324
+2019-08-24 16:43:59 INFO     connecting clients4.google.com:443 from 127.0.0.1:39334
+2019-08-24 16:44:26 INFO     connecting google.com:443 from 127.0.0.1:39342
+2019-08-24 16:45:30 INFO     connecting docs.google.com:443 from 127.0.0.1:39346
+2019-08-24 16:52:54 INFO     connecting clients4.google.com:443 from 127.0.0.1:39360
+2019-08-24 16:59:27 INFO     connecting clients4.google.com:443 from 127.0.0.1:39380
+2019-08-24 17:00:32 INFO     connecting clients6.google.com:443 from 127.0.0.1:39384
+2019-08-24 17:00:33 INFO     connecting clients6.google.com:443 from 127.0.0.1:39388
+2019-08-24 17:00:34 INFO     connecting clients6.google.com:443 from 127.0.0.1:39392
+2019-08-24 17:00:34 INFO     connecting clients6.google.com:443 from 127.0.0.1:39396
+2019-08-24 17:00:35 INFO     connecting play.google.com:443 from 127.0.0.1:39400
+2019-08-24 17:05:30 INFO     connecting docs.google.com:443 from 127.0.0.1:39412
+2019-08-24 17:05:31 INFO     connecting docs.google.com:443 from 127.0.0.1:39416
+2019-08-24 17:05:31 INFO     connecting docs.google.com:443 from 127.0.0.1:39420
+2019-08-24 17:06:21 INFO     connecting clients4.google.com:443 from 127.0.0.1:39428
+2019-08-24 17:20:30 INFO     connecting clients6.google.com:443 from 127.0.0.1:39452
+2019-08-24 17:20:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39456
+2019-08-24 17:20:32 INFO     connecting clients6.google.com:443 from 127.0.0.1:39460
+2019-08-24 17:20:33 INFO     connecting play.google.com:443 from 127.0.0.1:39464
+2019-08-24 17:20:33 INFO     connecting play.google.com:443 from 127.0.0.1:39468
+2019-08-24 17:28:20 INFO     connecting clients4.google.com:443 from 127.0.0.1:39486
+2019-08-24 17:40:30 INFO     connecting clients6.google.com:443 from 127.0.0.1:39508
+2019-08-24 17:40:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39512
+2019-08-24 17:40:32 INFO     connecting clients6.google.com:443 from 127.0.0.1:39516
+2019-08-24 17:40:33 INFO     connecting play.google.com:443 from 127.0.0.1:39520
+2019-08-24 17:40:34 INFO     connecting play.google.com:443 from 127.0.0.1:39524
+2019-08-24 17:40:34 INFO     connecting play.google.com:443 from 127.0.0.1:39528
+2019-08-24 17:47:34 INFO     connecting clients4.google.com:443 from 127.0.0.1:39540
+2019-08-24 17:50:30 INFO     connecting docs.google.com:443 from 127.0.0.1:39546
+2019-08-24 18:00:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39564
+2019-08-24 18:00:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39568
+2019-08-24 18:00:32 INFO     connecting clients6.google.com:443 from 127.0.0.1:39572
+2019-08-24 18:00:33 INFO     connecting play.google.com:443 from 127.0.0.1:39576
+2019-08-24 18:00:33 INFO     connecting play.google.com:443 from 127.0.0.1:39580
+2019-08-24 18:05:30 INFO     connecting docs.google.com:443 from 127.0.0.1:39588
+2019-08-24 18:05:31 INFO     connecting clients4.google.com:443 from 127.0.0.1:39592
+2019-08-24 18:05:34 INFO     connecting drive.google.com:443 from 127.0.0.1:39596
+2019-08-24 18:20:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39620
+2019-08-24 18:20:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39624
+2019-08-24 18:20:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39628
+2019-08-24 18:20:32 INFO     connecting clients6.google.com:443 from 127.0.0.1:39632
+2019-08-24 18:20:34 INFO     connecting play.google.com:443 from 127.0.0.1:39636
+2019-08-24 18:24:57 INFO     connecting clients4.google.com:443 from 127.0.0.1:39648
+2019-08-24 18:40:30 INFO     connecting docs.google.com:443 from 127.0.0.1:39674
+2019-08-24 18:40:31 INFO     connecting docs.google.com:443 from 127.0.0.1:39678
+2019-08-24 18:40:31 INFO     connecting docs.google.com:443 from 127.0.0.1:39680
+2019-08-24 18:40:31 INFO     connecting docs.google.com:443 from 127.0.0.1:39682
+2019-08-24 18:40:32 INFO     connecting clients6.google.com:443 from 127.0.0.1:39690
+2019-08-24 18:40:32 INFO     connecting clients6.google.com:443 from 127.0.0.1:39694
+2019-08-24 18:40:33 INFO     connecting clients6.google.com:443 from 127.0.0.1:39698
+2019-08-24 18:40:34 INFO     connecting play.google.com:443 from 127.0.0.1:39702
+2019-08-24 18:40:34 INFO     connecting play.google.com:443 from 127.0.0.1:39706
+2019-08-24 18:48:39 INFO     connecting clients4.google.com:443 from 127.0.0.1:39720
+2019-08-24 19:00:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39734
+2019-08-24 19:00:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39738
+2019-08-24 19:00:33 INFO     connecting play.google.com:443 from 127.0.0.1:39742
+2019-08-24 19:00:33 INFO     connecting play.google.com:443 from 127.0.0.1:39746
+2019-08-24 19:08:16 INFO     connecting clients4.google.com:443 from 127.0.0.1:39756
+2019-08-24 19:10:30 INFO     connecting docs.google.com:443 from 127.0.0.1:39768
+2019-08-24 19:19:34 INFO     connecting clients4.google.com:443 from 127.0.0.1:39778
+2019-08-24 19:20:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39782
+2019-08-24 19:20:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39786
+2019-08-24 19:20:32 INFO     connecting clients6.google.com:443 from 127.0.0.1:39790
+2019-08-24 19:20:33 INFO     connecting play.google.com:443 from 127.0.0.1:39794
+2019-08-24 19:20:33 INFO     connecting play.google.com:443 from 127.0.0.1:39798
+2019-08-24 19:28:33 INFO     connecting clients4.google.com:443 from 127.0.0.1:39812
+2019-08-24 19:40:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39830
+2019-08-24 19:40:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39834
+2019-08-24 19:40:34 INFO     connecting play.google.com:443 from 127.0.0.1:39838
+2019-08-24 19:40:49 INFO     connecting clients6.google.com:443 from 127.0.0.1:39842
+2019-08-24 19:40:49 INFO     connecting clients6.google.com:443 from 127.0.0.1:39846
+2019-08-24 19:44:39 INFO     connecting clients4.google.com:443 from 127.0.0.1:39856
+2019-08-24 19:52:29 INFO     connecting clients2.google.com:443 from 127.0.0.1:39864
+2019-08-24 20:00:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39880
+2019-08-24 20:00:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39884
+2019-08-24 20:00:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39888
+2019-08-24 20:00:33 INFO     connecting play.google.com:443 from 127.0.0.1:39892
+2019-08-24 20:00:33 INFO     connecting play.google.com:443 from 127.0.0.1:39896
+2019-08-24 20:07:44 INFO     connecting clients4.google.com:443 from 127.0.0.1:39902
+2019-08-24 20:15:30 INFO     connecting docs.google.com:443 from 127.0.0.1:39918
+2019-08-24 20:18:05 INFO     connecting clients4.google.com:443 from 127.0.0.1:39922
+2019-08-24 20:20:30 INFO     connecting clients6.google.com:443 from 127.0.0.1:39928
+2019-08-24 20:20:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39932
+2019-08-24 20:20:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:39936
+2019-08-24 20:20:33 INFO     connecting play.google.com:443 from 127.0.0.1:39940
+2019-08-24 20:20:34 INFO     connecting play.google.com:443 from 127.0.0.1:39944
+2019-08-24 20:24:07 INFO     connecting clients4.google.com:443 from 127.0.0.1:39952
+2019-08-24 20:29:34 INFO     connecting clients4.google.com:443 from 127.0.0.1:39962
+2019-08-24 20:39:42 INFO     connecting clients4.google.com:443 from 127.0.0.1:40012
+2019-08-24 20:40:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:40016
+2019-08-24 20:40:31 INFO     connecting clients6.google.com:443 from 127.0.0.1:40020
+2019-08-24 20:40:32 INFO     connecting clients6.google.com:443 from 127.0.0.1:40024
+2019-08-24 20:40:34 INFO     connecting play.google.com:443 from 127.0.0.1:40028
+2019-08-24 20:40:34 INFO     connecting play.google.com:443 from 127.0.0.1:40032
+2019-08-24 20:46:08 INFO     connecting clients4.google.com:443 from 127.0.0.1:40042
+2019-08-24 20:54:43 INFO     connecting clients4.google.com:443 from 127.0.0.1:40064
+2019-08-24 20:54:45 ERROR    [Errno 113] No route to host
+2019-08-24 20:56:00 INFO     connecting clients4.google.com:443 from 127.0.0.1:40068
+2019-08-24 20:56:02 ERROR    [Errno 113] No route to host
+2019-08-24 20:56:30 INFO     connecting mtalk.google.com:443 from 127.0.0.1:40072
+2019-08-24 20:56:31 ERROR    [Errno 113] No route to host
+2019-08-24 20:57:55 INFO     connecting clients4.google.com:443 from 127.0.0.1:40084
+2019-08-24 20:57:58 ERROR    [Errno 113] No route to host
+2019-08-24 20:59:33 INFO     connecting mtalk.google.com:443 from 127.0.0.1:40088
+2019-08-24 20:59:33 ERROR    [Errno 113] No route to host
+2019-08-24 21:00:48 INFO     connecting clients4.google.com:443 from 127.0.0.1:40094
+2019-08-24 21:00:49 ERROR    [Errno 113] No route to host
+2019-08-24 21:02:21 INFO     connecting clients4.google.com:443 from 127.0.0.1:40098
+2019-08-24 21:02:22 ERROR    [Errno 113] No route to host
+2019-08-24 21:05:04 INFO     connecting clients4.google.com:443 from 127.0.0.1:40102
+2019-08-24 21:05:07 ERROR    [Errno 113] No route to host
+2019-08-24 21:10:10 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40110
+2019-08-24 21:10:11 ERROR    [Errno 113] No route to host
+2019-08-24 21:10:11 INFO     connecting clients2.google.com:443 from 127.0.0.1:40114
+2019-08-24 21:10:14 ERROR    [Errno 113] No route to host
+2019-08-24 21:10:33 INFO     connecting mtalk.google.com:443 from 127.0.0.1:40118
+2019-08-24 21:10:33 ERROR    [Errno 113] No route to host
+2019-08-24 21:11:07 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40130
+2019-08-24 21:11:07 ERROR    [Errno 113] No route to host
+2019-08-24 21:11:12 INFO     connecting clients2.google.com:443 from 127.0.0.1:40134
+2019-08-24 21:11:12 ERROR    [Errno 113] No route to host
+2019-08-24 21:11:30 INFO     connecting clients4.google.com:443 from 127.0.0.1:40138
+2019-08-24 21:11:33 ERROR    [Errno 113] No route to host
+2019-08-24 21:12:10 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40142
+2019-08-24 21:12:13 ERROR    [Errno 113] No route to host
+2019-08-24 21:12:13 INFO     connecting clients2.google.com:443 from 127.0.0.1:40146
+2019-08-24 21:12:16 ERROR    [Errno 113] No route to host
+2019-08-24 21:13:06 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40150
+2019-08-24 21:13:09 ERROR    [Errno 113] No route to host
+2019-08-24 21:13:09 INFO     connecting clients2.google.com:443 from 127.0.0.1:40154
+2019-08-24 21:13:12 ERROR    [Errno 113] No route to host
+2019-08-24 21:14:06 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40158
+2019-08-24 21:14:08 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40162
+2019-08-24 21:14:09 ERROR    [Errno 113] No route to host
+2019-08-24 21:14:09 ERROR    [Errno 113] No route to host
+2019-08-24 21:14:09 INFO     connecting clients2.google.com:443 from 127.0.0.1:40166
+2019-08-24 21:14:11 INFO     connecting clients2.google.com:443 from 127.0.0.1:40170
+2019-08-24 21:14:12 ERROR    [Errno 113] No route to host
+2019-08-24 21:14:12 ERROR    [Errno 113] No route to host
+2019-08-24 21:15:40 INFO     connecting docs.google.com:443 from 127.0.0.1:40174
+2019-08-24 21:15:42 ERROR    [Errno 113] No route to host
+2019-08-24 21:16:06 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40178
+2019-08-24 21:16:06 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40182
+2019-08-24 21:16:08 ERROR    [Errno 113] No route to host
+2019-08-24 21:16:08 ERROR    [Errno 113] No route to host
+2019-08-24 21:16:08 INFO     connecting clients2.google.com:443 from 127.0.0.1:40186
+2019-08-24 21:16:08 INFO     connecting clients2.google.com:443 from 127.0.0.1:40190
+2019-08-24 21:16:11 ERROR    [Errno 113] No route to host
+2019-08-24 21:16:11 ERROR    [Errno 113] No route to host
+2019-08-24 21:17:57 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40194
+2019-08-24 21:17:57 ERROR    [Errno 113] No route to host
+2019-08-24 21:18:06 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40198
+2019-08-24 21:18:07 ERROR    [Errno 113] No route to host
+2019-08-24 21:18:10 INFO     connecting clients2.google.com:443 from 127.0.0.1:40202
+2019-08-24 21:18:10 ERROR    [Errno 113] No route to host
+2019-08-24 21:18:21 INFO     connecting clients2.google.com:443 from 127.0.0.1:40206
+2019-08-24 21:18:22 ERROR    [Errno 113] No route to host
+2019-08-24 21:19:25 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40210
+2019-08-24 21:19:25 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40214
+2019-08-24 21:19:26 ERROR    [Errno 113] No route to host
+2019-08-24 21:19:26 ERROR    [Errno 113] No route to host
+2019-08-24 21:19:26 INFO     connecting clients2.google.com:443 from 127.0.0.1:40218
+2019-08-24 21:19:26 INFO     connecting clients2.google.com:443 from 127.0.0.1:40222
+2019-08-24 21:19:29 ERROR    [Errno 113] No route to host
+2019-08-24 21:19:29 ERROR    [Errno 113] No route to host
+2019-08-24 21:19:47 INFO     connecting clients2.google.com:443 from 127.0.0.1:40226
+2019-08-24 21:19:48 ERROR    [Errno 113] No route to host
+2019-08-24 21:20:01 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40230
+2019-08-24 21:20:02 ERROR    [Errno 113] No route to host
+2019-08-24 21:20:30 INFO     connecting docs.google.com:443 from 127.0.0.1:40234
+2019-08-24 21:20:33 ERROR    [Errno 113] No route to host
+2019-08-24 21:21:08 INFO     connecting clients4.google.com:443 from 127.0.0.1:40240
+2019-08-24 21:21:11 ERROR    [Errno 113] No route to host
+2019-08-24 21:22:32 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40244
+2019-08-24 21:22:34 ERROR    [Errno 113] No route to host
+2019-08-24 21:22:34 INFO     connecting clients2.google.com:443 from 127.0.0.1:40248
+2019-08-24 21:22:37 ERROR    [Errno 113] No route to host
+2019-08-24 21:23:13 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40254
+2019-08-24 21:23:14 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40258
+2019-08-24 21:23:14 ERROR    [Errno 113] No route to host
+2019-08-24 21:23:14 ERROR    [Errno 113] No route to host
+2019-08-24 21:23:14 INFO     connecting clients2.google.com:443 from 127.0.0.1:40262
+2019-08-24 21:23:15 INFO     connecting clients2.google.com:443 from 127.0.0.1:40266
+2019-08-24 21:23:17 ERROR    [Errno 113] No route to host
+2019-08-24 21:23:17 ERROR    [Errno 113] No route to host
+2019-08-24 21:24:53 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40282
+2019-08-24 21:24:55 INFO     connecting clients4.google.com:443 from 127.0.0.1:40286
+2019-08-24 21:24:57 ERROR    [Errno 113] No route to host
+2019-08-24 21:24:57 ERROR    [Errno 113] No route to host
+2019-08-24 21:24:57 INFO     connecting clients2.google.com:443 from 127.0.0.1:40290
+2019-08-24 21:25:00 ERROR    [Errno 113] No route to host
+2019-08-24 21:25:21 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40294
+2019-08-24 21:25:21 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40298
+2019-08-24 21:25:22 ERROR    [Errno 113] No route to host
+2019-08-24 21:25:22 ERROR    [Errno 113] No route to host
+2019-08-24 21:25:22 INFO     connecting clients2.google.com:443 from 127.0.0.1:40302
+2019-08-24 21:25:22 INFO     connecting clients2.google.com:443 from 127.0.0.1:40306
+2019-08-24 21:25:25 ERROR    [Errno 113] No route to host
+2019-08-24 21:25:25 ERROR    [Errno 113] No route to host
+2019-08-24 21:25:30 INFO     connecting docs.google.com:443 from 127.0.0.1:40312
+2019-08-24 21:25:32 ERROR    [Errno 113] No route to host
+2019-08-24 21:25:52 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40316
+2019-08-24 21:25:55 ERROR    [Errno 113] No route to host
+2019-08-24 21:25:55 INFO     connecting clients2.google.com:443 from 127.0.0.1:40320
+2019-08-24 21:25:56 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40326
+2019-08-24 21:25:58 ERROR    [Errno 113] No route to host
+2019-08-24 21:25:58 ERROR    [Errno 113] No route to host
+2019-08-24 21:25:58 INFO     connecting clients2.google.com:443 from 127.0.0.1:40330
+2019-08-24 21:26:01 ERROR    [Errno 113] No route to host
+2019-08-24 21:27:21 INFO     connecting clients2.google.com:443 from 127.0.0.1:40342
+2019-08-24 21:27:22 ERROR    [Errno 113] No route to host
+2019-08-24 21:27:32 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40346
+2019-08-24 21:27:36 ERROR    [Errno 113] No route to host
+2019-08-24 21:29:21 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40352
+2019-08-24 21:29:21 ERROR    [Errno 113] No route to host
+2019-08-24 21:29:21 INFO     connecting clients2.google.com:443 from 127.0.0.1:40356
+2019-08-24 21:29:24 ERROR    [Errno 113] No route to host
+2019-08-24 21:29:55 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40362
+2019-08-24 21:29:56 ERROR    [Errno 113] No route to host
+2019-08-24 21:29:56 INFO     connecting clients2.google.com:443 from 127.0.0.1:40366
+2019-08-24 21:29:58 INFO     connecting clients2.google.com:443 from 127.0.0.1:40370
+2019-08-24 21:29:59 ERROR    [Errno 113] No route to host
+2019-08-24 21:29:59 ERROR    [Errno 113] No route to host
+2019-08-24 21:30:05 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40374
+2019-08-24 21:30:06 ERROR    [Errno 113] No route to host
+2019-08-24 21:30:30 INFO     connecting docs.google.com:443 from 127.0.0.1:40378
+2019-08-24 21:30:33 ERROR    [Errno 113] No route to host
+2019-08-24 21:30:35 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40382
+2019-08-24 21:30:36 ERROR    [Errno 113] No route to host
+2019-08-24 21:30:36 INFO     connecting clients2.google.com:443 from 127.0.0.1:40386
+2019-08-24 21:30:39 ERROR    [Errno 113] No route to host
+2019-08-24 21:30:40 INFO     connecting docs.google.com:443 from 127.0.0.1:40390
+2019-08-24 21:30:42 ERROR    [Errno 113] No route to host
+2019-08-24 21:31:11 INFO     connecting clients4.google.com:443 from 127.0.0.1:40394
+2019-08-24 21:31:13 INFO     connecting mtalk.google.com:443 from 127.0.0.1:40398
+2019-08-24 21:31:13 ERROR    [Errno 113] No route to host
+2019-08-24 21:31:13 ERROR    [Errno 113] No route to host
+2019-08-24 21:34:10 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40408
+2019-08-24 21:34:11 ERROR    [Errno 113] No route to host
+2019-08-24 21:34:11 INFO     connecting clients2.google.com:443 from 127.0.0.1:40412
+2019-08-24 21:34:14 ERROR    [Errno 113] No route to host
+2019-08-24 21:35:30 INFO     connecting docs.google.com:443 from 127.0.0.1:40418
+2019-08-24 21:35:30 ERROR    [Errno 113] No route to host
+2019-08-24 21:37:33 INFO     connecting clients4.google.com:443 from 127.0.0.1:40422
+2019-08-24 21:37:36 ERROR    [Errno 113] No route to host
+2019-08-24 21:37:45 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40426
+2019-08-24 21:37:46 ERROR    [Errno 113] No route to host
+2019-08-24 21:37:46 INFO     connecting clients2.google.com:443 from 127.0.0.1:40430
+2019-08-24 21:37:50 ERROR    [Errno 113] No route to host
+2019-08-24 21:38:05 INFO     connecting clients4.google.com:443 from 127.0.0.1:40434
+2019-08-24 21:38:06 ERROR    [Errno 113] No route to host
+2019-08-24 21:38:08 INFO     connecting clients2.google.com:443 from 127.0.0.1:40438
+2019-08-24 21:38:10 ERROR    [Errno 113] No route to host
+2019-08-24 21:38:21 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40442
+2019-08-24 21:38:22 ERROR    [Errno 113] No route to host
+2019-08-24 21:38:56 INFO     connecting clients4.google.com:443 from 127.0.0.1:40448
+2019-08-24 21:38:59 ERROR    [Errno 113] No route to host
+2019-08-24 21:40:30 INFO     connecting docs.google.com:443 from 127.0.0.1:40456
+2019-08-24 21:40:30 INFO     connecting clients4.google.com:443 from 127.0.0.1:40460
+2019-08-24 21:40:31 ERROR    [Errno 113] No route to host
+2019-08-24 21:40:31 ERROR    [Errno 113] No route to host
+2019-08-24 21:41:02 INFO     connecting clients2.google.com:443 from 127.0.0.1:40464
+2019-08-24 21:41:03 ERROR    [Errno 113] No route to host
+2019-08-24 21:41:12 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40468
+2019-08-24 21:41:13 ERROR    [Errno 113] No route to host
+2019-08-24 21:41:13 INFO     connecting clients4.google.com:443 from 127.0.0.1:40472
+2019-08-24 21:41:16 ERROR    [Errno 113] No route to host
+2019-08-24 21:41:51 INFO     connecting clients2.google.com:443 from 127.0.0.1:40476
+2019-08-24 21:41:54 ERROR    [Errno 113] No route to host
+2019-08-24 21:42:06 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40480
+2019-08-24 21:42:07 ERROR    [Errno 113] No route to host
+2019-08-24 21:42:07 INFO     connecting clients2.google.com:443 from 127.0.0.1:40484
+2019-08-24 21:42:10 ERROR    [Errno 113] No route to host
+2019-08-24 21:43:02 INFO     connecting beacons5.gvt3.com:443 from 127.0.0.1:40488
+2019-08-24 21:43:03 ERROR    [Errno 113] No route to host

@@ -14,4 +14,5 @@ for i in range(TIMES):
         my_first_choice += 1
     else:
         my_change_choice += 1
-print('参赛者改变选择：{:.2f}\%,坚持选择：{:.2f}\%'.format(my_change_choice/TIMES*100, my_first_choice/TIMES*100))
+print('参赛者改变选择：{:.2f}\%,坚持选择：{:.2f}\%'.format(my_change_choice/TIMES*100,
+                                                                        my_first_choice/TIMES*100))
